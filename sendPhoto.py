@@ -1,7 +1,7 @@
 import os 
 import requests
 
-TOKEN = os.environ['TOKEN']
+TOKEN = ''
 
 def sendPhoto(chat_id:str,photo:str):
     URL = f'https://api.telegram.org/bot{TOKEN}/sendPhoto'
