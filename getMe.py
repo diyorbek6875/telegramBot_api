@@ -1,6 +1,6 @@
 import requests
 
-TOKEN = ''
+TOKEN = '6089863461:AAGuL8gKw5QdjXaqwcNY6dZmQmezYVgtDUg'
 BASE_URL = f'https://api.telegram.org/bot{TOKEN}/getMe'
 
 
